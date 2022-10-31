@@ -72,9 +72,6 @@ class CrimeFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         _binding = FragmentCrimeBinding.inflate(inflater, container, false)
-
-        btnDataSet()
-
         return binding.root
     }
 
@@ -87,6 +84,7 @@ class CrimeFragment : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        btnDataSet()
         super.onViewCreated(view, savedInstanceState)
     }
 
