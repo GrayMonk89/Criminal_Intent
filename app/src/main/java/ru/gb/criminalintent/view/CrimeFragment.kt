@@ -1,4 +1,4 @@
-package ru.gb.criminalintent
+package ru.gb.criminalintent.view
 
 import android.os.Bundle
 import android.text.Editable

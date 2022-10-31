@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
+import ru.gb.criminalintent.view.CrimeListFragment
 import kotlin.system.exitProcess
 
 class MainActivity : AppCompatActivity() {
@@ -18,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 
             supportFragmentManager
                 .beginTransaction()
-                .add(R.id.mainFragmentContainer, CrimeFragment.newInstance())
+                .add(R.id.mainFragmentContainer, CrimeListFragment.newInstance())
                 .commit()
         }
     }

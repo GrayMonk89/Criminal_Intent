@@ -1,4 +1,4 @@
-package ru.gb.criminalintent.util
+package ru.gb.criminalintent.utils
 
 import android.view.View
 import com.google.android.material.snackbar.Snackbar
